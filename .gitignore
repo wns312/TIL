@@ -1,4 +1,4 @@
-
+*.txt
 # Created by https://www.toptal.com/developers/gitignore/api/venv,dotenv,intellij,pycharm,python,java,macos,windows,visualstudiocode,linux,django
 # Edit at https://www.toptal.com/developers/gitignore?templates=venv,dotenv,intellij,pycharm,python,java,macos,windows,visualstudiocode,linux,django
 
