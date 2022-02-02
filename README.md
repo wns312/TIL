@@ -5,6 +5,11 @@
 > Django, Dotenv, IntelliJ, Java, Linux, MacOS, PyCharm, Python, Venv, VisualStudioCode, Windows
 
 ---
+2022-02-22
+> 백준 1660, 2294, 11052
+> 
+> `float('inf')` & `float('-inf')` : 양의 무한대, 음의 무한대를 나타낼 때 사용
+
 2022-01-31
 > 백준 15990, 9658, 8353 
 > 
