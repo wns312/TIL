@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r')
+sys.stdin = open('../silver/input.txt', 'r')
 
 s1 = input()
 s2 = input()
