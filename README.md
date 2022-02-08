@@ -5,7 +5,11 @@
 > Django, Dotenv, IntelliJ, Java, Linux, MacOS, PyCharm, Python, Venv, VisualStudioCode, Windows
 
 ---
-2022-02-05
+2022-02-08
+> 백준 2225
+
+
+2022-02-07
 > 백준 2133
 > 
 > DP는 어렵다..
