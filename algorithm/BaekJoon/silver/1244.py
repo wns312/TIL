@@ -25,6 +25,6 @@ for _ in range(M):
             r -= 1
         for i in range(l, r+1):
             switches[i] = 0 if switches[i] else 1
-
-print(" ".join(list(map(str, switches))))
+for i in range(0, len(switches), 20):
+    print(" ".join(list(map(str, switches[i:i+20]))))
 
