@@ -5,6 +5,9 @@
 > Django, Dotenv, IntelliJ, Java, Linux, MacOS, PyCharm, Python, Venv, VisualStudioCode, Windows
 
 ---
+2022-03-01
+> 백준 9372
+
 2022-02-26
 > 백준 14891, 13335, 1244, 14503, 3190
 > 14891 틀린 주요 이유 : 
