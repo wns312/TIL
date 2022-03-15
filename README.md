@@ -5,6 +5,9 @@
 > Django, Dotenv, IntelliJ, Java, Linux, MacOS, PyCharm, Python, Venv, VisualStudioCode, Windows
 
 ---
+2022-03-15
+> 백준 16918
+
 2022-03-09
 > 백준 5639, 1052
 
