@@ -3,26 +3,20 @@ sys.stdin = open('input.txt', 'r')
 
 N = int(input())
 arr = list(map(int, input().split()))
-dp = [0] * N
-dp[0] = arr[0]
-max_v = 0
-for i in range(1, N):
-    dp[i] = arr[i] if arr[i] > dp[i-1]+arr[i] else dp[i-1]+arr[i]
-    if dp[i] > max_v:
-        max_v = dp[i]
+# 음수라면 음수의 최대값을 출력
+if max(arr) < 0:
+    print(max(arr))
 
-for i in range(1, N):
-    if dp[i] < dp[i-1] and dp[i-1] > 0:
-
-        for j in range(i+1, N):
-            if dp[j] + dp[i-1] < 0:
-                break
-            if dp[j] + dp[i-1] > max_v:
-                max_v = dp[j] + dp[i-1]
-print(max_v)
+# 음수가 아니라면 A가 이미 음수를 제외한 값, B를 제외할 수 있는 값으로 간주
+# 각 값을 계속 가져가면서 memo에 최대값을 저장한다
+else:
+    A, B = 0, 0
+    memo = [0] * N
+    for i in range(N):
+        num = arr[i]
+        A = max(B, A+arr[i], 0)
+        B = max(B+arr[i], 0)
+        memo[i] = max(A, B)
+    print(max(memo))
 
 
-
-
-
-print(dp)

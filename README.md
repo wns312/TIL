@@ -5,8 +5,12 @@
 > Django, Dotenv, IntelliJ, Java, Linux, MacOS, PyCharm, Python, Venv, VisualStudioCode, Windows
 
 ---
+풀 예정
+> 인구이동(16234, 시뮬레이션), 트리와 쿼리(15681, 트리)
+
+---
 2022-03-15
-> 백준 16918
+> 백준 16918, 13398
 
 2022-03-09
 > 백준 5639, 1052
