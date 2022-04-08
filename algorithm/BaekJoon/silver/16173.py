@@ -3,8 +3,6 @@ from queue import PriorityQueue
 sys.stdin = open('../gold/input.txt', 'r')
 
 
-import sys
-sys.setrecursionlimit(250000)
 N = int(input())
 arr = [list(map(int, input().split())) for _ in range(N)]
 result = 'Hing'
