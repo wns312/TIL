@@ -27,11 +27,12 @@ for _ in range(T):
         c, r = map(int, input().split())
         arr[r][c] = 1
 
-
     count = 0
+
     for r in range(N):
         for c in range(M):
             if arr[r][c] and not visit[r][c]:
                 visit = dfs(r, c, arr, visit)
                 count += 1
+
     print(count)
